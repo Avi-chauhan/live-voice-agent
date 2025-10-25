@@ -1,0 +1,40 @@
+{
+    "ORD-1001": {
+        "order_id": "ORD-1001",
+        "customer": "Alice Johnson",
+        "items": [
+            {
+                "sku": "SKU-111",
+                "name": "Blue Widget",
+                "qty": 2
+            },
+            {
+                "sku": "SKU-222",
+                "name": "Red Widget",
+                "qty": 1
+            }
+        ],
+        "status": "shipped",
+        "tracking": "TRACK123456"
+    },
+    "ORD-1002": {
+        "order_id": "ORD-1002",
+        "customer": "Bob Smith",
+        "items": [
+            {
+                "sku": "SKU-333",
+                "name": "Green Widget",
+                "qty": 4
+            }
+        ],
+        "status": "processing",
+        "tracking": null
+    },
+    "ORD-1003": {
+        "order_id": "ORD-1003",
+        "customer": "Carol Lee",
+        "items": [],
+        "status": "cancelled",
+        "tracking": null
+    }
+}
