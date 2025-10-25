@@ -38,4 +38,17 @@ def get_order_status(args: Dict[str, Any]) -> Dict[str, Any]:
 TOOL = {
     "name": "get_order_status",
     "call": get_order_status,
+    "description": "Lookup an order by order_id and return its status and details.",
+    "usage": {"order_id": "ORD-1001"},
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "order_id": {
+                "type": "string",
+                "description": "Order identifier, for example ORD-1002."
+            }
+        },
+        "required": ["order_id"],
+        "additionalProperties": False
+    }
 }
